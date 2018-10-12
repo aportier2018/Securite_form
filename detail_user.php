@@ -23,7 +23,7 @@
       <p><a href ='creer_user.php'>Vous inscrire ?<a></p>
       <p><a href='afficher_user.php'>Afficher la liste des utilisateurs ?</a></p>
     </header>
-    
+
     <main class="detail">
        <?php
           $iduser =$_GET["id"];
