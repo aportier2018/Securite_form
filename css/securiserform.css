@@ -1,0 +1,78 @@
+html, body {
+    font-family: 'Raleway',Helvetica, Calibri, serif;
+    font-size:62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+}
+
+form {
+    color: #FFFFFF;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom : 100px;
+    background-color: #05121b;
+    border-radius: 10px;
+}
+
+.confield {
+    color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #555555;
+}
+
+legend {
+    font-size: 3rem;
+    padding: 20px;
+}
+
+label:not(.notmarge) {
+    margin-left:4%;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 0;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    font-size: 2rem;
+    color:#f1f1f1;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 15%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+span {
+    font-size: 2rem;
+    margin-left: 4%;
+}
+
+p {
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}
